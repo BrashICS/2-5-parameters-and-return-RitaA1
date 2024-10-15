@@ -27,9 +27,7 @@ function to_celsius(fahrenheit) {
 
 //part three
 function roll_dice(qty, sides) {
-    let randInt(qty, sides) 
-        let rnd = 
-        return rnd;
+    
 }
 
 
@@ -48,13 +46,12 @@ function cylinder_volume(radius, height) {
 
 function percent(score, total) {
     let p = score/total
-    console.log(`${Math.round(p)*100}%`)
+    console.log(`${Math.round(p*100)}%`)
     return p
 }
 
-function cylinder_volume(radius, height) {
-    let area = Math.PI*radius**2*height
-    return area
+function cround(value, decimals){
+    
 }
 
 function cylinder_volume(radius, height) {
