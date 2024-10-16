@@ -30,8 +30,6 @@ function roll_dice(qty, sides) {
     
 }
 
-
-
 //part four 
 function area_circle(radius) {
     let area = Math.PI*radius**2
@@ -39,10 +37,15 @@ function area_circle(radius) {
 }
 
 function cylinder_volume(radius, height) {
-    let area = Math.PI*radius**2*height
+    let area = area_circle(radius)*height
     return area
 }
 
+//part five
+function pythagorean_theorem( a, b) {
+    let c = Math.sqrt(a**2 + b**2)
+    return c
+}
 
 function percent(score, total) {
     let p = score/total
@@ -50,11 +53,12 @@ function percent(score, total) {
     return p
 }
 
-function cround(value, decimals){
+// value = value *10**decimals
+//value = Math.round(value)
+// value = value//10**decimals
+
+function round(value, decimals){
+    return Math.round(value*10**decimals)/10**decimals
     
 }
 
-function cylinder_volume(radius, height) {
-    let area = Math.PI*radius**2*height
-    return area
-}
